@@ -5,7 +5,6 @@ buildah config --port "8888:80" $container
 
 path=$(buildah mount $container)
 rm $path/etc/lighttpd/lighttpd.conf
-cp lighttpd.conf $path/etc/lighttpd/lighttpd.conf
 
 buildah run $container chown -R lighttpd:lighttpd /var/www/
 buildah run $container chmod -R 750 /var/www/

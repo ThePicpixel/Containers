@@ -1,0 +1,15 @@
+[14:14:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2129ms or 42 ticks behind
+[21:25:25] [RCON Listener #1/INFO]: Rcon connection from: /127.0.0.1
+[21:25:25] [Server thread/INFO]: [Rcon: Stopping the server]
+[21:25:25] [Server thread/INFO]: Stopping server
+[21:25:25] [Server thread/INFO]: Saving players
+[21:25:25] [Server thread/INFO]: Saving worlds
+[21:25:25] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[21:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:25:25] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[21:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:25:25] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[21:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:25:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:25:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:25:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
