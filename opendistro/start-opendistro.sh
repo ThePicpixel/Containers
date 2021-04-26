@@ -2,7 +2,7 @@
 
 # Creates a pod named opendistro for our deployement
 echo "[*] Creating pod opendistro..."
-podman pod create --name opendistro --publish 5601:5601 --publish 9880:9880 
+podman pod create --name opendistro --publish 5601:5601 --publish 9200:9200 
 
 # Deploys our elastic search container
 echo "[*] Running opendistro.elastic into pod opendistro"
