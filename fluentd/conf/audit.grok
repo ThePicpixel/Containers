@@ -1,0 +1,7 @@
+
+
+AUDIT_HEADER type=%{WORD:log_type}%{SPACE}msg=audit\(%{NUMBER:audit_stamp}:%{NUMBER:event_id}\):
+
+AUDIT_PATH %{GREEDYDATA}comm=\"%{WORD:cmdline}\" exe=\"%{PATH:command}\"%{GREEDYDATA}key=\"%{DATA:key}\"
+
+AUDIT_BODY %{GREEDYDATA}acct=\"%{WORD:user}\"%{SPACE}exe=\"%{PATH:command}\"%{GREEDYDATA}res=%{WORD:result}
